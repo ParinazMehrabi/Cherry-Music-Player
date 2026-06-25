@@ -2,7 +2,6 @@
 
 <div align="center">
 
-<!-- Non-clickable Badges using HTML -->
 <img src="https://img.shields.io/badge/Java-11%2B-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Java">
 <img src="https://img.shields.io/badge/JavaFX-17-blue?style=for-the-badge&logo=openjdk&logoColor=white" alt="JavaFX">
 <img src="https://img.shields.io/badge/Architecture-MVC-green?style=for-the-badge" alt="Architecture">
@@ -15,10 +14,7 @@
 </p>
 
 
-<img src="<img width="2560" height="1600" alt="Screenshot 2026-06-26 at 12 08 19 AM" src="https://github.com/user-attachments/assets/270d8285-cd42-4b80-b336-50641da36990" />
-" alt="Cherry Music Player Dashboard" width="100%" style="border-radius: 10px;">
-
-</div>
+<img width="2560" height="1600" alt="Screenshot 2026-06-26 at 12 08 19 AM" src="https://github.com/user-attachments/assets/270d8285-cd42-4b80-b336-50641da36990" />
 
 ---
 
