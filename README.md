@@ -14,19 +14,19 @@
     An enterprise-level simulation of Spotify built with Java and JavaFX, featuring rigorous OOP hierarchy, complex data structures, multi-criteria custom sorting, custom domain exception handling, and a sleek analytical dashboard.
 </p>
 
-<!--  اسکرین‌شات اصلی پروژه را در خط زیر جایگذاری کنید -->
-<img src="![Uploading Screenshot 2026-06-26 at 12.08.19 AM.png…]()
+
+<img src="<img width="2560" height="1600" alt="Screenshot 2026-06-26 at 12 08 19 AM" src="https://github.com/user-attachments/assets/270d8285-cd42-4b80-b336-50641da36990" />
 " alt="Cherry Music Player Dashboard" width="100%" style="border-radius: 10px;">
 
 </div>
 
 ---
 
-## 🏛️ Domain Model & Class Hierarchy
+## Domain Model & Class Hierarchy
 
 The core system architecture is engineered with a strict, deeply encapsulated Object-Oriented inheritance tree ensuring strong polymorphism and adherence to clean code standards.
 
-### 👥 User Account Hierarchy
+### User Account Hierarchy
 - `UserAccount` *(Abstract)*
   - `Admin` *(Thread-Safe Singleton)* — Oversees platform reports, statistics, and global system metadata.
   - `Artist` *(Base Class for Creators)* — Manages earnings, dynamic biographical profiles, and subscribers.
@@ -36,14 +36,14 @@ The core system architecture is engineered with a strict, deeply encapsulated Ob
     - `FreeListener` — Enforces functional limits (Max 3 playlists, max 10 tracks/playlist).
     - `PremiumListener` — Unrestricted platform consumption with automated subscription token expiration.
 
-### 🎵 Audio Component Hierarchy
+### Audio Component Hierarchy
 - `Audio` *(Abstract)* — Tracks structural analytical telemetry (likes, global plays, unique IDs).
   - `Music` — Contains complex lyrics and localized metadata.
   - `Podcast` — Integrates custom thematic captions.
 
 ---
 
-## 🚀 Key Architectural Pillars
+## Key Architectural Pillars
 
 ### 1. Unified Global State (Singleton Database)
 All runtime entities (Users, Audios, System Reports) are dynamically tracked and aggregated inside a centralized memory fabric utilizing the **Singleton Design Pattern** (`Database.java`). Direct mutation of entities is completely encapsulated.
@@ -70,7 +70,7 @@ Transitioned from a rich Command-Line Interface (CLI Command Router) into a full
 
 ---
 
-## 🏗️ Technical Project Topology
+## Technical Project Topology
 ```text
 src/
 ├── org.spotify.player/
